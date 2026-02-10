@@ -12,9 +12,11 @@
             <p>Harvested with Care, Served with Elegance</p>
         </header>
         <nav>
-            <a href="#">About Us</a>
-            <a href="#">Offerings</a>
-            <a href="#">Gallery</a>
+            <div class="nav-container">
+                <a href="#">About Us</a>
+                <a href="#">Offerings</a>
+                <a href="#">Gallery</a>
+            </div>
         </nav>
 
         <main>
@@ -65,7 +67,7 @@
                     </div>
                 </section>
             </section>
-                <section class="info">
+            <section class="info">
                 <h2>A Gallery of Field & Feast</h2>
                 <p>
                     Experience the elegance and artistry behind Field & Feast through our curated collection of images. 
@@ -73,30 +75,50 @@
                     tells the story of our commitment to excellence.
                 </p>
             </section>
-            <section id="images">
-                <img src="assets/tomatoes-200w.jpg" alt="">
+            <section id="gallery">
+                <div class="card">
+                    <img src="assets/tomatoes-200w.jpg" alt="Heirloom tomatoes at peak ripeness">
+                    <p>Heirloom tomatoes at peak ripeness.</p>
+                </div>
                 
-                <img src="assets/olive-oil-200w.jpg" alt="">
+                <div class="card">
+                    <img src="assets/olive-oil-200w.jpg" alt="Drizzling golden olive oil over fresh harvest">
+                    <p>Drizzling golden olive oil over fresh harvest.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/table-setting-200w.jpg" alt="Elegant tablescape under the evening sky">
+                    <p>Elegant tablescape under the evening sky.</p>
+                </div>
                 
-                <img src="assets/table-setting-200w.jpg" alt="">
-                
-                <img src="assets/chef-plating-200w.jpg" alt="">
-                
-                <img src="assets/basket-200w.jpg" alt="">
+                <div class="card">
+                    <img src="assets/chef-plating-200w.jpg" alt="Artful plating with seasonal ingredients">
+                    <p>Artful plating with seasonal ingredients.</p>
+                </div>
+
+                <div class="card">
+                    <img src="assets/basket-200w.jpg" alt="Our monthly basket, curated with care">
+                    <p>Our monthly basket, curated with care.</p>
+                </div>
             </section>
             
-            <a href="#">View Our Full gallery</a>
+            <a id="gallery-btn" href="#">View Our Full gallery</a>
+            <div id="line"></div>
         </main>
          
         <footer>
-            <p>123 Estate Lane, Wine Country, CA</p>
-            
-            <p>(555) 123-456</p>
-            <a href="#">ello@fieldandfeast.com</a>
-            
-            <a href="#">Instagram</a>
-            <a href="#">Facebook</a>
-            
+            <div class="footer-container">
+                <div id="contact">
+                    <p>123 Estate Lane, Wine Country, CA</p>
+                    <p>(555) 123-456</p>
+                    <a href="#">hello@fieldandfeast.com</a>
+                </div>
+                
+                <div id="social">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
