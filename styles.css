@@ -1,0 +1,171 @@
+/* CSS BY ZAC WEBB */
+
+/* IMPORTED FONTS */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* CSS RESET */
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ROOT VARIABLES */
+
+:root{
+    --midnight-blue: #1F2A44;
+    --olive-green: #76885B;
+    --champagne-gold: #E5C185;
+    --linen: #F8F4EC;
+    --dark-charcoal: #2B2B2B;
+    --soft-white: #FAF9F6;
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+body{
+    font-family: 'Playfair Display', sans-serif;
+}
+
+header{
+    background-color: var(--midnight-blue);
+    text-align: center;
+    padding: 50px 0 40px;
+    color: var(--soft-white);
+}
+
+header h1{
+    font-size: 5em;
+    font-weight: 800;
+    padding: 10px 0 50px;
+}
+
+header p{
+    font-size: 1.5rem;
+    font-style: italic;
+    font-weight: 500;
+}
+
+nav{
+    background-color: var(--champagne-gold);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    margin-bottom: 40px;
+}
+
+nav a{
+    color: var(--midnight-blue);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+main, footer{
+    width: 88vw;
+    margin: auto;
+}
+
+.info{
+    padding-bottom: 30px;
+}
+
+h2{
+    color: var(--midnight-blue);
+    font-size: 2.5rem;
+    font-weight: 500;  
+    padding: 30px 0 10px;
+}
+
+.info p{
+    color: var(--dark-charcoal);
+    line-height: 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.offerings h2{
+    margin-bottom: 15px;
+    border-top: 2px solid var(--champagne-gold);
+}
+
+.box{
+    color: var(--soft-white);
+    background-color: var(--olive-green);
+    padding: 25px 20px;
+    border-radius: 8px;
+    line-height: 1.5rem;
+    box-shadow: 0 1px 4px var(--dark-charcoal);
+}
+
+.box h3{
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+
+.boxes{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    padding-bottom: 30px;
+    border-bottom: 2px solid var(--champagne-gold);
+}
+
+.boxes ul{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+
+/* MEDIA QUERY (medium) */
+
+/* MEDIA QUERY (large) */
+
+/* MEDIA QUERY (xl) */
+
